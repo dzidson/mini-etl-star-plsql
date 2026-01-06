@@ -1,0 +1,28 @@
+# system
+.DS_Store
+Thumbs.db
+
+# edytory / IDE
+*.iml
+.idea/
+.vscode/
+
+# tymczasowe
+*.log
+*.tmp
+*.bak
+
+# dane wra¿liwe / lokalne
+*.env
+*.credentials
+*.password
+*.key
+
+# dumpy / exporty
+*.dmp
+*.sql~
+
+# pliki generowane
+*.csv
+*.xlsx
+/output/
