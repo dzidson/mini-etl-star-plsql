@@ -8,4 +8,9 @@ CREATE OR REPLACE PACKAGE etl_sales_pkg AS
     -- Ładowanie tabeli faktów
     PROCEDURE load_fact_sales (p_load_id IN NUMBER);
 END etl_sales_pkg;
+
+/
+
+
+
 /
