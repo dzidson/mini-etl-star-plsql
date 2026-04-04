@@ -18,7 +18,7 @@ BEGIN
         is_active,
         created_at
     ) VALUES ( 'LOG_FILE_MASK',
-               '{LOG_TYPE}_{PROCESS_NAME}_{PROCEDURE_NAME}_{TS}.log',
+               '{LOG_TYPE}_{PROCESS_NAME}_{PROCEDURE_NAME}_{DT}.log',
                'Maska pliku logów',
                'Y',
                sysdate );
